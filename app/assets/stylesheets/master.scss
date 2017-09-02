@@ -1,16 +1,50 @@
 body {
   background-image: image-url('gaming-pattern');
   background-repeat: repeat;
+  font-family: 'Orbitron', sans-serif;
 }
 
-h1, h2 {
+.header h1, h2 {
   color: DodgerBlue;
-  font-family: 'Orbitron', sans-serif;
-  text-align: center;
   letter-spacing: 2px
 }
 
 .header {
   padding: 50px;
   background: black;
+  text-align: center;
+}
+
+.header a {
+  font-size: 30px;
+  color: white;
+}
+
+.title {
+ font-family: 'Orbitron', sans-serif;
+ margin-left: 35px;
+}
+
+.game-form {
+  font-size: 25px;
+  font-family: 'Orbitron', sans-serif;
+  margin: 25px;
+}
+
+.game-form .input {
+  padding: 10px;
+  font-size: 25px;
+}
+
+.game-form label {
+  padding-right:10px;
+}
+
+.game-box {
+  margin: 30px;
+  font-size: 30px;
+}
+
+.game-box li {
+  padding: 10px;
 }

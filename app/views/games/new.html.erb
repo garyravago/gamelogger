@@ -1,0 +1,14 @@
+<div class="title">
+  <h1>Add a Game</h1>
+</div>
+
+<div class="game-form">
+  <%= simple_form_for @game do |f| %>
+    <%= f.input :title, autofocus: true%>
+    <%= f.input :system %>
+    <%= f.input :genre %>
+    <%= f.input :start_date %>
+    <%= f.input :status %>
+    <%= f.button :submit %>
+  <% end %>
+</div>
